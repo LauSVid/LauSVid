@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+html {
+    background-color: #FCF6B1;
+    font-family: "Alexandria";
+    font-weight: 300;
+
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    position: sticky;
+    top: 0;
+    background-color: #FCF6B1;
+}
+
+.nombre {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 0.5em;
+    padding-left: 1em;
+}
+
+.marca {
+    font-family: "Aboreto";
+    font-weight: 600;
+    font-style: normal;
+    margin: auto;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    gap: 4em;
+    padding-right: 2em;
+    align-items: center;
+}
+
+nav {
+    align-items: center;
+    margin-bottom: auto;
+    margin-top: auto;
+}
+
+li {
+    list-style-type: none;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: black;
+    padding: 0.5em;
+}
+
+.nav-link:hover {
+    background-color: #A9E5BB;
+    color: #2D1E2F;
+
+}
+
+.titulo {
+    background-color: #2D1E2F;
+    color: #FCF6B1;
+    text-align: center;
+    padding: 3rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    padding: 2em;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1em;
+}
+
+#email {
+    width: 20%;
+    height: 2rem;
+    text-align: center;
+    border-radius: 5px;
+    font-family: "Alexandria";
+    border: 0.5px solid gray;
+}
+
+#submit {
+    padding: 0.5rem;
+    font-family: "Alexandria";
+    border-radius: 5px;
+    background-color: #A9E5BB;
+    border: grey;
+    color: #2D1E2F;
+}
+
+#submit:hover {
+    cursor: pointer;
+}
+
+#nuestro_cafe,
+#tostado,
+#comprar {
+    background-color: #2D1E2F;
+    color: #FCF6B1;
+    text-align: center;
+    padding: 2rem;
+}
+
+.nuestro_cafe p {
+    padding: 3rem;
+    width: 50%;
+    margin: auto;
+    line-height: 1.5;
+}
+
+.tostado {
+    text-align: center;
+}
+
+#video {
+    width: 500px;
+    height: 300px;
+    margin: auto;
+    text-align: center;
+    padding: 2rem;
+}
+
+.div-precios {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 3rem 0;
+    gap: 1rem;
+}
+
+.variedades {
+    width: 20%;
+    height: 200px;
+    border: 0.5px solid #2D1E2F;
+    border-radius: 10px;
+
+}
+
+h4 {
+    padding: 0.8rem;
+    text-align: center;
+    background-color: #A9E5BB;
+    color: #2D1E2F;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+@media (max-width: 760px) {
+    body {
+        display: flex;
+        flex-direction: column;
+    }
+
+    header {
+        flex-direction: column;
+    }
+}

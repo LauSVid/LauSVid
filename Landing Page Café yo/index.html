@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Aboreto&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Aboreto&family=Alexandria:wght@100..900&display=swap"
+        rel="stylesheet">
+    <title>Café Los aromos</title>
+</head>
+
+<body>
+    <header id="header">
+        <div class="nombre">
+            <img id="header-img"
+                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAUxJREFUSEu1ldFtwzAMRM+bpJO0maTJJE0nSTpJm0maTdq8wBRomhbtjxAw/CHp7ngUqUFPjuHJ+NpKcJD0KunNCbtJ4vsc/xPNawlOkt4l7YqMj3fyH09UEQB4Doozjouk6wgMQYseATZ8dxRjiym2bQjiXMtiiaACB2A/olKXj2Af9cDWtMio+C2Uv4xKAfYFt2NNQJYBtmSH7DDgRE9EEx8JSAtVS2GpV/uoz0NIJEBV7yoawV9xXVOLKu/BpLCoq+xJi1ylbRlza+iNXnB96Y2JRVVxzddKSPM/Eqz1f+2+R4a+yL2DpmpLA84IlizyI2GNiEltfAaZtxSKghFVjbhhk0EXLfKDijWUE9ms8SqzodfWs1GBz5DZw9JrPD/00mubEVSKAQKYZppZEll67wHNZOr5Y8VXfLGKhtv8Jld4s/XqydwMGA/8AymmTBmLyV9eAAAAAElFTkSuQmCC" />
+            <p class="marca">Los aromos</p>
+        </div>
+
+        <nav id="nav-bar">
+            <ul>
+                <li><a class="nav-link" href="#nuestro_cafe">Nuestro Café</a></li>
+                <li><a class="nav-link" href="#tostado">Tostado</a></li>
+                <li><a class="nav-link" href="#comprar">Comprar</a></li>
+            </ul>
+        </nav>
+
+    </header>
+    <main>
+        <h2 class="titulo">Un café para cada momento</h2>
+        <form id="form" method="post" action="https://www.freecodecamp.com/email-submit">
+            <input id="email" name="email" type="email" placeholder="Introduce tu email">
+            <input type="submit" id="submit">
+        </form>
+        <div class="nuestro_cafe">
+            <h3 id="nuestro_cafe">Nuestro Café</h3>
+            <p>De cuerpo entero, un poco ahumado, con notas cítricas, con fuerte presencia de chocolate…el desafío que
+                tenemos constantemente es que cada uno de nuestros clientes encuentre su mezcla favorita y a la vez, que
+                explore nuestras amplias selecciones más singulares.</p>
+            <p>Para alcanzarlo nos abastecemos de los mejores granos de café arábicos siguiendo siempre estrictos
+                principios éticos.</p>
+        </div>
+        <div class="tostado">
+            <h3 id="tostado">El proceso de tostado</h3>
+            <iframe id="video" src="https://www.youtube.com/embed/mFlDbnvg7dA?si=15yYi3W20RQUqfma"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+        <div class="comprar">
+            <h3 id="comprar">Comprá nuestros cafés</h3>
+            <div class="div-precios">
+                <div class="variedades">
+                    <h4>Rubio</h4>
+                    <p>$10.900</p>
+                    <p>El café Los Aromos tostado rubio es tostado en menos tiempo, tiene un cuerpo ligero y sabores
+                        suaves.
+                    </p>
+                    <input type="submit">
+                </div>
+
+                <div class="variedades">
+                    <h4>Medio</h4>
+                    <p>$11.100</p>
+                    <p>El café con tostado medio es balanceado con sabores agradables y enriquecidos.</p>
+                    <input type="submit">
+                </div>
+                <div class="variedades">
+                    <h4>Oscuro</h4>
+                    <p>$11.600</p>
+                    <p>Los cafés con tostado oscuro presentan un cuerpo completo y sabores fuertes y robustos.</p>
+                    <input type="submit">
+                </div>
+            </div>
+
+        </div>
+
+    </main>
+    <footer>
+        <p>Copyright 2016, Los Aromos s.r.l.</p>
+    </footer>
+</body>
+
+</html>
