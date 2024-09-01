@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: block;
+    background-color: #C94277;
+    color: #CADBC0;
+    font-family: tahoma;
+}
+
+.container {
+    width: 700px;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    background-color: #2F0A28;
+}
+
+header {
+    padding: 0 0.625rem;
+    margin: 1.875rem auto;
+    display: block;    
+}
+
+header p {
+    text-align: center;
+}
+
+form {
+    display: block;
+    padding: 1em 4em 4em 4em;
+
+}
+
+.seccionUno {
+    display: flex;
+    flex-direction: column;
+}
+
+.seccionUno input, select {
+    display: block;
+    width: 100%;
+    height: 2em;
+}
+
+.datos {
+    margin-bottom: 1.5em;
+}
+
+input, select, textarea {
+    margin-top: 0.8em;
+    border-radius: 10px;
+    box-shadow: none;
+    border: none;
+    padding-left: 1em;
+    color: #94524A;
+}
+
+input::placeholder {
+    color: #94524A;
+}
+
+.seccionDos, .seccionTres, .seccionCuatro {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2em;
+}
+
+.seccionDos {
+    margin-top: 1em;
+}
+
+textarea {
+    display: block;
+    width: 100%;
+    height: 88px;
+    min-height: 120px;
+    color:#94524A;
+    font-family: tahoma;
+    padding-top: 0.5em;
+}
+
+textarea::placeholder {
+    color: #94524A;
+    font-family: tahoma
+}
+
+.submit {
+    width: 100%;
+    height: 30px;
+    background-color: #C94277;
+    color: #2F0A28;
+    font-weight: bold;
+}
+

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+        <title>Encuesta</title>
+    </head>
+    <body>
+        <div class="container">
+            <header class="header">
+                <h1 id="title">Encuesta de satisfacción</h1>
+                <p id="description">Esta encuesta nos ayuda a seguir mejorando para vos</p>
+            </header>
+            <form id="survey-form">
+                <div class="seccionUno">
+                    <div class="datos">
+                        <label for="name" id="name-label"> Nombre:
+                            <input required id="name" type="text" placeholder="Ingresa tu nombre">
+                        </label>
+                    </div>
+                    <div class="datos">
+                        <label for="email" id="email-label">email:
+                            <input id="email" type="email" required placeholder="Ingresa tu email">
+                        </label>
+                    </div>
+                    <div class="datos">
+                        <label for="number" id="number-label">Edad:
+                            <input id="number" type="number" min="13" max="120" placeholder="Ingresa tu edad">
+                        </label>
+                    </div>
+                    <div class="datos">
+                        <label for="dropdown">¿Cómo calificarías nuestro servicio?
+                            <select id="dropdown" class="dropdown">
+                                <option>(selecciona una opción)</option>
+                                <option>Malo</option>
+                                <option>Regular</option>
+                                <option>Bueno</option>
+                                <option>Muy bueno</option>
+                            </select>
+                        </label>
+                    </div>
+                </div>
+                <div class="seccionDos">
+                    <p>¿Volverías a contratarnos?</p>
+                    <label for="validacion">
+                        <input type="radio" id="validacion" value="validacion-si" name="validacion">Sí
+                    </label>
+                    <label>
+                        <input type="radio" id="validacion" value="validacion-no" name="validacion">No
+                    </label>
+                </div>
+                <div class="seccionTres">
+                    <label for="publicidad">
+                        <input type="checkbox" id="publicidad" value="publicidad"> Deseo recibir publicidad por email.
+                    </label>
+                    <label for="encuestas">
+                        <input type="checkbox" id="encuestas" value="encuestas"> Deseo participar de otras encuestas.
+                    </label>
+                </div>
+                <div class="seccionCuatro">
+                    <label for="info">¿Querés comentarnos algo?
+                        <textarea placeholder="Escribí acá tus comentarios o sugerencias." id="info"></textarea>
+                    </label>
+                </div>
+                <label for="submit">
+                    <input type="submit" id="submit" class="submit">
+                </label>
+            </form>
+        </div>
+    </body>
+</html>
